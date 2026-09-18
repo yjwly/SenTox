@@ -1,6 +1,0 @@
-@SenTox_HostAddress = http://localhost:5248
-
-GET {{SenTox_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
