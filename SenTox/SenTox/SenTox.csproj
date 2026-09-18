@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="SqlSugarCore" Version="5.1.4.221" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SenToxRepository\SenToxRepository.csproj" />
+    <ProjectReference Include="..\SenToxService\SenToxService.csproj" />
   </ItemGroup>
 
 </Project>
