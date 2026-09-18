@@ -1,0 +1,11 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.slnx
+*.vsidx
+vssver.scc
+
+# .NET build
+bin/
+obj/
